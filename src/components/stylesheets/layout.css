@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: #f6f8ff; */
+  /* background-csolor: rgba(155, 90, 255, 0.1); */
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body,
+#___gatsby,
+div[role="group"][tabindex],
+.main-container {
+  min-height: 150vh;
+  width: 100vw;
+}
+
+html {
+  background-color: #f6f8ff;
+}
+
+input, textarea, button {
+  border-radius: 3px;
+  border: none;
+  padding: 1.25vh 2.5vh;
+  margin: .5em 0;
+  outline: none;
+  font-size: 16px;
+}
+
+input, textarea {
+  min-width: 300px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #30353D;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 14em;
+}
+
+.main-container {
+  position: relative;
+}
+
+main {
+  min-height: 100vh;
+  margin: 0 5%;
+}
+
+header {
+  padding: 3% 5%;
+}
+
+footer {
+ position: absolute;
+ bottom: -1;
+ min-height: 50vh;
+ width: 100vw;
+ padding: 1% 1vw;
+ margin-top: 12vh;
+ background-color: #1A1D20;
+ color: #f1f1f1;
+ float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+h1 {
+  margin: 1.25em 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  width: fit-content;
+  color: #202020;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.1em 0px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 1em 0px;
+}
+
+ul {
+  margin-left: 2vw;
+  list-style-type: circle;
+}
+
+li {
+  line-height: 1.6;
+}
+
+li > a {
+  color: #7f7f7f;
+}
+
+li > a:hover {
+  color: #afcfff;
+}
+
+#hero-img{
+  margin: 0px auto;
+}
+
+.excerpt {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 12em;
+}
+
+.excerpt > * {
+  width: 50%
+}
+
+.underline {
+  border-bottom: 1px solid #ddd;
+}
+
+.light {
+  background-color: #f6f8ff;
+  color: #333;
+}
+
+.dark {
+  background-color: #30353D;
+  color: #fff;
+}
+
+.link {
+  color: #1d1dff;
+  border-bottom: 1px solid #1d1dff;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-grid > * {
+  width: 25%;
+  padding: 1.5%;
+}

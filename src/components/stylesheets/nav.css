@@ -1,0 +1,30 @@
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  line-height: 1;
+}
+
+nav ul > li {
+  float: left;
+}
+
+nav li a {
+  padding: 16px 28px 16px 0px;
+  display: block;
+  text-align: center;
+}
+
+nav li a:hover:not(.active) {
+  color: #afcfff;
+}
+
+li a {
+}
+
+.active {
+  background-color: #4CAF50;
+}
