@@ -11,7 +11,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* color: #f6f8ff; */
-  /* background-csolor: rgba(155, 90, 255, 0.1) !important; */
+  /* background-color: rgba(155, 90, 255, 0.1) !important; */
 }
 
 *:before,
@@ -27,6 +27,7 @@ div[role="group"][tabindex],
   min-height: 150vh;
   width: 100vw;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 html {
