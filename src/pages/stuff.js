@@ -3,6 +3,8 @@ import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import StuffList from '../components/StuffList'
+
 const StuffPage = () =>
   <Layout>
     <SEO title="Stuff"/>
@@ -16,80 +18,150 @@ const StuffPage = () =>
     </p>
 
     <div className="card-grid">
-      <div>
-        <h3>Developer Blogs</h3>
-        <p>
-          A list of developer blogs I follow to keep me up to date with what I
-          need to know.
-        </p>
-        <ul>
-          <li><a target="_blank" href="https://overreacted.io">Dan Abramov</a> - React Overlord.</li>
-          <li><a target="_blank" href="https://lord.io">Robert Lord</a> - Inspiringly minimal.</li>
-          <li><a target="_blank" href="https://www.taniarascia.com">Tania Rascia</a> - Simple and short articles to read while you drink your morning coffee.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'Developer Blogs' }
+        synopsis={ 'A list of developer blogs I follow to keep me up to date with what I need to know.' }
+        list={
+          [
+            {
+              link: 'https://overreacted.io',
+              title: 'Dan Abramov',
+              snippet: 'React Overlord'
+            },
+            {
+              link: 'https://lord.io',
+              title: 'Robert Lord',
+              snippet: 'Inspiringly minimal'
+            },
+            {
+              link: 'https://www.taniarascia.com',
+              title: 'Tania Rascia',
+              snippet: 'Simple and short articles to read while you drink your morning coffee'
+            }
+          ]
+        }
+      />
 
-      <div>
-        <h3>Quick Tuts</h3>
-        <p>Tutorials that's helped me a learn in a short amount of time. I love the CSS game tutorials a ton.</p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://cssgridgarden.com">Grid Garden</a> - CSS grid game tutorial.
-          </li>
-          <li>
-            <a target="_blank" href="https://flexboxfroggy.com">Flexbox Froggy</a> - CSS flexbox game tutorial.
-          </li>
-          <li><a target="_blank" href="https://flukeout.github.io">Flukeout</a> - CSS Selectors game tutorial.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'Quick Tuts' }
+        synopsis={ "Tutorials that's helped me a learn in a short amount of time. I love the CSS game tutorials a ton." }
+        list={
+          [
+            {
+              link: 'https://cssgridgarden.com',
+              title: 'Grid Garden',
+              snippet: 'CSS grid game tutorial'
+            },
+            {
+              link: 'https://flexboxfroggy.com',
+              title: 'Flexbox Froggy',
+              snippet: 'CSS flexbox game tutorial'
+            },
+            {
+              link: 'https://flukeout.github.io',
+              title: 'Flukeout',
+              snippet: 'CSS Selectors game tutorial'
+            },
+          ]
+        }
+      />
 
-      <div>
-        <h3>CSS Frameworks</h3>
-        <p>Frameworks that help me throws things to together quickly</p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://daneden.github.io/animate.css/">Animated.css</a> - A quick way to add animation to your website.
-          </li>
-          <li><a target="_blank" href="http://getskeleton.com">Get Skeleton</a> - A dead simple, responsive boilerplate.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'CSS Frameworks' }
+        synopsis={ 'Frameworks that help me throws things to together quickly.' }
+        list={
+          [
+            {
+              link: 'https://daneden.github.io/animate.css/',
+              title: 'Animated.css',
+              snippet: 'A quick way to add animation to your website'
+            },
+            {
+              link: 'http://getskeleton.com',
+              title: 'Get Skeleton',
+              snippet: 'A dead simple, responsive boilerplate'
+            },
+          ]
+        }
+      />
 
-      <div>
-        <h3>APIs</h3>
-        <p>APIs I think are pretty neat to explore or safe keep.</p>
-        <ul>
-          <li>
-            <a target="_blank" href="https://newsapi.org">News API</a> - A free API for pulling news. The data is just usuable, hassle free.
-          </li>
-          <li><a target="_blank" href="https://ziptasticapi.com">Ziptastic</a> - Minimal API that returns the Country, State, City of the zip code you supply.</li>
-          <li><a target="_blank" href="https://worldtradingdata.com">World Trading Data</a> - Stock market API, something that's hard to find.</li>
-          <li><a target="_blank" href="https://geo-info.co">Geocoding</a> - Turning coordinates into human readable locations. Great to pair with Google Maps API.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'APIs' }
+        synopsis={ 'APIs I think are pretty neat to explore or safe keep.' }
+        list={
+          [
+            {
+              link: 'https://newsapi.org',
+              title: 'News API',
+              snippet: 'A free API for pulling news. The data is just usuable, hassle free'
+            },
+            {
+              link: 'https://ziptasticapi.com',
+              title: 'Ziptastic',
+              snippet: 'Minimal API that returns the Country, State, City of the zip code you supply'
+            },
+            {
+              link: 'https://worldtradingdata.com',
+              title: 'World Trading Data',
+              snippet: "Stock market API, something that's hard to find"
+            },
+            {
+              link: 'https://geo-info.co',
+              title: 'Geocoding',
+              snippet: 'Turning coordinates into human readable locations. Great to pair with Google Maps API'
+            },
+          ]
+        }
+      />
 
-      <div>
-        <h3>Udemy Courses</h3>
-        <p>
-          Some courses I've already had the liberty of doing and would love to
-          pass onto anyone who's looking for good material to learn for.
-        </p>
-        <ul>
-          <li><a target="_blank" href="https://www.udemy.com/course/react-redux/learn/lecture/5691826#overview">Modern React w. Redux</a> - React + Redux course by Stephan Grider. Absolutely the best instructor I can possibly imagine. The course is throughly maintained and updated.</li>
-          <li><a target="_blank" href="https://www.udemy.com/course/nodejs-master-class/learn/lecture/9993132#overview">Node</a> - NodeJs course by Mosh Hamedani. Straight forward and to the point.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'Udemy Courses' }
+        synopsis={ "Some courses I've already had the liberty of doing and would love to pass onto anyone who's looking for good material to learn for." }
+        list={
+          [
+            {
+              link: 'https://www.udemy.com/course/react-redux/learn/lecture/5691826#overview',
+              title: 'Modern React w. Redux',
+              snippet: 'React + Redux course by Stephan Grider. Absolutely the best instructor I can possibly imagine. The course is throughly maintained and updated'
+            },
+            {
+              link: 'https://www.udemy.com/course/nodejs-master-class/learn/lecture/9993132#overview',
+              title: 'Node',
+              snippet: 'NodeJs course by Mosh Hamedani. Straight forward and to the point'
+            },
+          ]
+        }
+      />
 
-      <div>
-        <h3>Sites</h3>
-        <p>These sites are pretty category-less. But definetly useful.</p>
-        <ul>
-          <li><a target="_blank" href="https://devhints.io">Rico's Cheatsheets</a> - A collection of cheatsheets from <a target="_blank" href="https://ricostacruz.com">Rico Sta. Cruz</a>.</li>
-          <li><a target="_blank" href="http://bettermotherfuckingwebsite.com">Better Motherfucking Website</a> - A masterpiece website written using only 7 lines of CSS.</li>
-        </ul>
-      </div>
+      <StuffList
+        title={ 'Tid Bits' }
+        synopsis={ 'These sites are pretty category-less. But definetly useful.' }
+        list={
+          [
+            {
+              link: 'https://devhints.io',
+              title: "Rico's Cheatsheets",
+              snippet: 'A collection of cheatsheets from Rico Sta. Cruz'
+            },
+            {
+              link: 'http://bettermotherfuckingwebsite.com',
+              title: 'Better Motherfucking Website',
+              snippet: 'A masterpiece website written using only 7 lines of CSS'
+            },
+            {
+              link: 'http://repl.it',
+              title: 'Repl',
+              snippet: 'An instant IDE to learn, build, collaborate, and host all in one place'
+            },
+            {
+              link: 'https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/',
+              title: 'Flexbox Playground by Scotch',
+              snippet: 'A masterpiece website written using only 7 lines of CSS'
+            },
+          ]
+        }
+      />
     </div>
-
   </Layout>
-
 
 export default StuffPage

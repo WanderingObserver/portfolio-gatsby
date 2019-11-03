@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./Footer"
 import "./stylesheets/layout.css"
 import "./stylesheets/footer.css"
 import "./stylesheets/nav.css"
@@ -34,16 +35,7 @@ const Layout = ({ children }) => {
 
       <main className="main">{ children }</main>
 
-      <footer className="footer">
-        <a href="#">Hire Me</a>
-
-        <input type="text" name="" value="" placeholder="email"/>
-        <button className="light" type="button" name="button">Subscribe</button>
-
-        <div>
-          © {new Date().getFullYear()} Mohammed Chisti. All rights reserved.
-        </div>
-      </footer>
+      <Footer/>
     </div>
   )
 }

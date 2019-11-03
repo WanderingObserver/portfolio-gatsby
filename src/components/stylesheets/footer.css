@@ -1,0 +1,43 @@
+footer * {
+  color: #656d78;
+}
+
+footer div {
+  flex-grow: 5;
+}
+
+footer .subscribe {
+  /* display: none; */
+  flex-grow: 1;
+}
+
+footer .social-icons {
+  padding: 1.2em 0;
+}
+
+footer h5 {
+  color: #959Da8;
+}
+
+footer a {
+  color: #eee;
+}
+
+footer i {
+  padding: 0 .75em .50em .75em;
+}
+
+footer i:first-child {
+  padding-left: 0;
+}
+
+.subscribe > input {
+  margin-right: 5px;
+}
+
+footer input,
+footer area,
+footer button {
+  border: none;
+  color: #red;
+}

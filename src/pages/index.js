@@ -3,14 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+// <Image id="hero-img" />
+import HeroImg from "../images/hero.jpeg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Web Devevloper" />
 
-    <div className="excerpt">
-      <div>
+    <div className="excerpt" style={{ backgroundColor: `` }}>
+      <div style={{ margin: `auto 0` }}>
         <h1>Hello, it's nice to meet you.</h1>
         <p>
           My name is Mohammed Chisti and I'm a Web Developer based in New
@@ -23,8 +25,8 @@ const IndexPage = () => (
         </p>
       </div>
 
-      <div style={{ margin: `1%` }}>
-        <Image id="hero-img" />
+      <div style={{ height: `450px`, margin: `1%` }}>
+        <img  style={{ height: `100%`, margin: `0 20%` }} src={ HeroImg } alt='Hero Picture'/>
       </div>
     </div>
 

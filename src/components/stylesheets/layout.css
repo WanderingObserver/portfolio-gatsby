@@ -11,7 +11,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* color: #f6f8ff; */
-  /* background-csolor: rgba(155, 90, 255, 0.1); */
+  /* background-csolor: rgba(155, 90, 255, 0.1) !important; */
 }
 
 *:before,
@@ -26,6 +26,7 @@ div[role="group"][tabindex],
 .main-container {
   min-height: 150vh;
   width: 100vw;
+  line-height: 1.6;
 }
 
 html {
@@ -35,7 +36,7 @@ html {
 input, textarea, button {
   border-radius: 3px;
   border: none;
-  padding: 1.25vh 2.5vh;
+  padding: 1em 2em;
   margin: .5em 0;
   outline: none;
   font-size: 16px;
@@ -49,6 +50,7 @@ input, textarea {
 button {
   background-color: #30353D;
   color: #fff;
+  font-weight: 800;
 }
 
 textarea {
@@ -73,9 +75,10 @@ header {
 footer {
  position: absolute;
  bottom: -1;
+ display: flex;
  min-height: 50vh;
  width: 100vw;
- padding: 1% 1vw;
+ padding: 6% 5%;
  margin-top: 12vh;
  background-color: #1A1D20;
  color: #f1f1f1;
