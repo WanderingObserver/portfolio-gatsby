@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import './stylesheets/libraries/fontawesome-free-5.11.2-web/css/all.css'
+import Resume from '../resources/resume-mohammed-chisti.pdf'
 
 const Footer = () =>
   <footer className="footer">
@@ -12,10 +13,12 @@ const Footer = () =>
       </p>
 
       <div className='social-icons'>
+        <a target='_blank' href="https://twitter.com/mohammedchisti"><i title="Twitter" className="fab fa-twitter fa-2x"></i></a>
+        <a target='_blank' href="https://twitter.com/mohammedchisti"><i class="fab fa-medium fa-2x"></i></a>
         <a target='_blank' href="https://github.com/seeyouspacecowboy"><i title="Github" className="fab fa-github fa-2x"></i></a>
         <a target='_blank' href="https://codepen.io/mohammedchisti"><i title="Code Pen" className="fab fa-codepen fa-2x"></i></a>
-        <a target='_blank' href="https://twitter.com/mohammedchisti"><i title="Twitter" className="fab fa-twitter fa-2x"></i></a>
-        <a target='_blank' href="https://twitter.com/mohammedchisti"><i title="Resume" class="far fa-file fa-2x"></i></a>
+        <a target='_blank' href="https://twitter.com/mohammedchisti"><i class="fab fa-angellist fa-2x"></i></a>
+        <a target='_blank' href={ Resume }><i title="Resume" class="far fa-file fa-2x"></i></a>
 
       </div>
 

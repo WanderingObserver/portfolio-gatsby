@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 // <Image id="hero-img" />
-import HeroImg from "../images/hero-0.jpeg"
+import HeroImg from "../resources/images/hero-0.jpeg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
