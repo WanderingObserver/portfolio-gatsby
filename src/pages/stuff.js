@@ -67,7 +67,7 @@ const StuffPage = () =>
       />
 
       <StuffList
-        title={ 'CSS Frameworks' }
+        title={ 'CSS Frameworks & Plugins' }
         synopsis={ 'Frameworks that help me throws things to together quickly.' }
         list={
           [
@@ -80,6 +80,11 @@ const StuffPage = () =>
               link: 'http://getskeleton.com',
               title: 'Get Skeleton',
               snippet: 'A dead simple, responsive boilerplate'
+            },
+            {
+              link: 'https://pawelgrzybek.github.io/siema/',
+              title: 'Siema',
+              snippet: `A lightweight (only 3kb gzipped) carousel plugin with no dependencies and no styling by Pawel Grzybek`
             },
           ]
         }

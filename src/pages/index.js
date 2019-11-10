@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Web Devevloper" />
 
     <div className="excerpt" style={{ backgroundColor: `` }}>
-      <div style={{ margin: `auto 0` }}>
+      <div style={{ paddingRight: `3%`, margin: `auto 0` }}>
         <h1>Hello, it's nice to meet you.</h1>
         <p>
           My name is Mohammed Chisti and I'm a Web Developer based in New
@@ -25,13 +25,9 @@ const IndexPage = () => (
         </p>
       </div>
 
-      <div style={{ height: `450px`, margin: `1%` }}>
-        <img  style={{ height: `100%`, margin: `0 20%` }} src={ HeroImg } alt='Hero Picture'/>
+      <div className='center' id='hero-img'>
+        <img  src={ HeroImg } alt='Hero Picture'/>
       </div>
-    </div>
-
-    <div>
-      <h2>Work</h2>
     </div>
   </Layout>
 )
