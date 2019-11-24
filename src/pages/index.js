@@ -15,13 +15,18 @@ const IndexPage = () => (
       <div style={{ paddingRight: `3%`, margin: `auto 0` }}>
         <h1>Hello, it's nice to meet you.</h1>
         <p>
-          My name is Mohammed Chisti and I'm a Web Developer based in New
+          My name is Mohammed Chisti and I am a Software Developer based in New
           York City, NY.
         </p>
         <p>
-          Take a look around. I've built this website to help me both document
+          Take a look around. I have built this website to help me both document
           and share the things I continue to learn as a developer. If you like
-          my work, feel free to reach out, I'm for hire. Or drop a "Hello" too.
+          my work, feel free to reach out, I am for hire. Or drop a "Hello" too.
+        </p>
+        <p id="disclaimer">
+          Disclaimer: This website is still not where I want it to be yet and
+          therefore still being polished. If you find any bugs, I would greatly
+          appreciate it if you would bring them up to me. Thank you!
         </p>
       </div>
 

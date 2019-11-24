@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Layout from "../components/layout"
+import Resume from '../resources/resume-mohammed-chisti.pdf'
 
 export default class About extends Component {
   render() {
@@ -8,22 +9,29 @@ export default class About extends Component {
       <Layout>
         <h1>About Me</h1>
         <p>
-          Hello! I'm Mohammed Chisti, based in New York City, NY and I enjoy
-          building things for the web.
+          Hi, my name is Mohammed Chisti. I am based in New York City, NY. I am
+          a software developer specilized in building and designing things for
+          the internet.
         </p>
         <p>
-          Here are a few technologies I work with currently:
+          You can get a quick synopsis of my work and experience through
+          my <a href={ Resume }>resume</a>.
         </p>
-        <ul>
-          <li>JavaScript (ES6+)</li>
-          <li>React</li>
-          <li>Rails</li>
-        </ul>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>PosgreSQL</li>
-        </ul>
+        <p>
+          Here are a few technologies I currently work with:
+        </p>
+        <div className="wrap-grid">
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Rails</li>
+          </ul>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PosgreSQL</li>
+          </ul>
+        </div>
       </Layout>
     )
   }

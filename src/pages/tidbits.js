@@ -5,10 +5,10 @@ import SEO from "../components/seo"
 
 import StuffList from '../components/StuffList'
 
-const StuffPage = () =>
+const TidbitsPage = () =>
   <Layout>
     <SEO title="Stuff"/>
-    <h1 className="underline">Stuff</h1>
+    <h1 className="underline">Tidbits</h1>
     <p>
       This page is a list of things I wanted to make easily accessible to share
       with you, but didn't really find a reason to create it's own tab or
@@ -139,8 +139,8 @@ const StuffPage = () =>
       />
 
       <StuffList
-        title={ 'Tid Bits' }
-        synopsis={ 'These sites are pretty category-less. But definetly useful.' }
+        title={ 'Other Bits' }
+        synopsis={ 'These sites are pretty category-less. But definitely useful.' }
         list={
           [
             {
@@ -169,4 +169,4 @@ const StuffPage = () =>
     </div>
   </Layout>
 
-export default StuffPage
+export default TidbitsPage

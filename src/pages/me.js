@@ -27,7 +27,7 @@ const MePage = () =>
       These are some things I personally indulge in. Aside from the
       whole, let's keep things "stricly business". The "human" things.
       Oh man, the times I've wasted on these. But you know what they say,
-      wasted time is never wasted time.
+      enjoyed time is never wasted time.
     </p>
 
     <h1 className="underline">Secret Curaited List of Favorites</h1>
