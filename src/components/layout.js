@@ -11,6 +11,11 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./Footer"
+
+// CSS Libraries
+import "./stylesheets/libraries/animate.css"
+
+// Personal CSS
 import "./stylesheets/layout.css"
 import "./stylesheets/footer.css"
 import "./stylesheets/nav.css"

@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Web Devevloper" />
 
     <div className="excerpt" style={{ backgroundColor: `` }}>
-      <div style={{ paddingRight: `3%`, margin: `auto 0` }}>
+      <div className="animated fadeIn delay-1s" style={{ paddingRight: `3%`, margin: `auto 0` }}>
         <h1>Hello, it's nice to meet you.</h1>
         <p>
           My name is Mohammed Chisti and I am a Software Developer based in New
@@ -30,7 +30,7 @@ const IndexPage = () => (
         </p>
       </div>
 
-      <div className='center' id='hero-img'>
+      <div className='animated fadeInLeft center' id='hero-img'>
         <img  src={ HeroImg } alt='Hero Picture'/>
       </div>
     </div>
