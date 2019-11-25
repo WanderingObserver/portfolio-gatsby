@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 import Layout from "../components/layout"
+
+import "../components/stylesheets/about.css"
 import Resume from '../resources/resume-mohammed-chisti.pdf'
 
 export default class About extends Component {
@@ -21,12 +23,12 @@ export default class About extends Component {
           Here are a few technologies I currently work with:
         </p>
         <div className="wrap-grid">
-          <ul>
+          <ul className="skills-card">
             <li>JavaScript (ES6+)</li>
             <li>React</li>
             <li>Rails</li>
           </ul>
-          <ul>
+          <ul className="skills-card">
             <li>HTML</li>
             <li>CSS</li>
             <li>PosgreSQL</li>
