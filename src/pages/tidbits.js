@@ -165,6 +165,11 @@ const TidbitsPage = () =>
                 title: 'Flexbox Playground by Scotch',
                 snippet: 'A masterpiece website written using only 7 lines of CSS'
               },
+              {
+                link: 'https://flatuicolors.com/',
+                title: 'Flat UI Colors',
+                snippet: 'Find curated color palettes'
+              },
             ]
           }
         />

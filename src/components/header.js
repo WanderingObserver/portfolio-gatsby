@@ -7,7 +7,7 @@ import Resume from '../resources/resume-mohammed-chisti.pdf'
 const Header = ({ siteTitle }) => (
   <header>
     <nav>
-      <h3><Link to="/">Mohammed Chisti</Link></h3>
+      <h3 id="nav-title"><Link to="/">Mohammed Chisti</Link></h3>
       <ul>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Work</Link></li>

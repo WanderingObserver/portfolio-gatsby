@@ -1,3 +1,7 @@
+#nav-title > a {
+  color: #020202;
+}
+
 nav ul {
   margin: 0;
   list-style-type: none;

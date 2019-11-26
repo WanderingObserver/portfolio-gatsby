@@ -17,11 +17,12 @@ export default class About extends Component {
             the internet.
           </p>
           <p>
+            I work on a wide variety of interesting projects on a daily basis.
             You can get a quick synopsis of my work and experience through
-            my <a href={ Resume }>resume</a>.
+            my <a target="_blank" href={ Resume }>resume</a>.
           </p>
           <p>
-            Here are a few technologies I currently work with:
+            Here are a few technologies I have been currently working with:
           </p>
           <div className="wrap-grid">
             <ul className="skills-card">
@@ -32,7 +33,7 @@ export default class About extends Component {
             <ul className="skills-card">
               <li>HTML</li>
               <li>CSS</li>
-              <li>PosgreSQL</li>
+              <li>PostgreSQL</li>
             </ul>
           </div>
         </div>
