@@ -23,7 +23,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#f6f8ff`,
         theme_color: `#f6f8ff`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/resources/images/favicon-portfolio-v2.png`, // This path is relative to the root of the site.
       },
     },
