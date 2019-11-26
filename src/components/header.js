@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
       <ul>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Work</Link></li>
-        <li><a target="_blank" href="https://medium.com/@mchisti">Articles</a></li>
+        <li><a target="_blank" href="https://medium.com/@mchisti" title="Medium Blogs">Articles</a></li>
         <li><Link to="/tidbits">Tidbits</Link></li>
         <li><Link to="/hire">Contact</Link></li>
-        <li><a target="_blank" href={ Resume }>Resume</a></li>
+        <li><a target="_blank" href={ Resume } title="PDF">Resume</a></li>
       </ul>
     </nav>
   </header>
