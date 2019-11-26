@@ -18,11 +18,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Mohammed Chisti | Software Developer`,
+        short_name: `Mohammed Chisti`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#f6f8ff`,
+        theme_color: `#f6f8ff`,
         display: `minimal-ui`,
         icon: `src/resources/images/favicon-portfolio-v2.png`, // This path is relative to the root of the site.
       },
