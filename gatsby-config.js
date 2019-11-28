@@ -25,11 +25,10 @@ module.exports = {
         theme_color: `#f6f8ff`,
         display: `standalone`,
         icon: `src/resources/images/favicon-portfolio-v2.png`, // This path is relative to the root of the site.
-        crossOrigin: `use-credentials`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
