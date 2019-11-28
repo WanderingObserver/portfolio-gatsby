@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Mohammed Chisti Portfolio`,
+    description: `Hi, my name is Mohammed Chisti. I am a software developer specilized in building and designing things for the internet. I work on a wide variety of interesting projects.`,
+    author: `@mohammedchisti`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,6 +25,7 @@ module.exports = {
         theme_color: `#f6f8ff`,
         display: `standalone`,
         icon: `src/resources/images/favicon-portfolio-v2.png`, // This path is relative to the root of the site.
+        crossOrigin: `use-credentials`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
