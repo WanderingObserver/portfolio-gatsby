@@ -170,6 +170,11 @@ const TidbitsPage = () =>
                 title: 'Flat UI Colors',
                 snippet: 'Find curated color palettes'
               },
+              {
+                link: 'https://npmtrends.com/',
+                title: 'NPM Trends',
+                snippet: 'Find out what the industry standard is by comparing trends'
+              },
             ]
           }
         />
