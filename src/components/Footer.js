@@ -21,7 +21,7 @@ const Footer = () =>
       </div>
 
       <div>
-        <p>Built & Designed By <Link to="/">Mohammed Chisti</Link></p>
+        <p>Built & Designed With ❤️</p>
 
         © { new Date().getFullYear() } Mohammed Chisti. All rights reserved.
       </div>
