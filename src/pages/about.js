@@ -12,7 +12,7 @@ export default class About extends Component {
         <div className="animated fadeIn">
           <h1>About Me</h1>
           <p>
-            Hi, my name is Mohammed Chisti. I am based in New York City, NY. I am
+            I am based in New York City, NY. I am
             a software developer specilized in building and designing things for
             the internet.
           </p>

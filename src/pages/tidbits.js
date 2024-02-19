@@ -12,17 +12,13 @@ const TidbitsPage = () =>
     <div className="animated fadeIn">
       <h1 className="underline">Tidbits</h1>
       <p>
-        This page is a list of things I wanted to make easily accessible to share
-        with you, but didn't really find a reason to create it's own tab or
-        article for them. Most of them are resources I use, which I hope to bookmark
-        through this page and hope that others find it to be of great use, as have
-        I.
+        This is a tidbit of things I've found along the way.
       </p>
 
       <div className="card-grid">
         <StuffList
           title={ 'Developer Blogs' }
-          synopsis={ 'A list of developer blogs I follow to keep me up to date with what I need to know.' }
+          synopsis={ '' }
           list={
             [
               {
@@ -46,7 +42,7 @@ const TidbitsPage = () =>
 
         <StuffList
           title={ 'Quick Tuts' }
-          synopsis={ "Tutorials that's helped me a learn in a short amount of time. I love the CSS game tutorials a ton." }
+          synopsis={ "" }
           list={
             [
               {
@@ -70,7 +66,7 @@ const TidbitsPage = () =>
 
         <StuffList
           title={ 'CSS Frameworks & Plugins' }
-          synopsis={ 'Frameworks that help me throws things to together quickly.' }
+          synopsis={ '' }
           list={
             [
               {
@@ -94,7 +90,7 @@ const TidbitsPage = () =>
 
         <StuffList
           title={ 'APIs' }
-          synopsis={ 'APIs I think are pretty neat to explore or safe keep.' }
+          synopsis={ 'Fun easy APIs' }
           list={
             [
               {
@@ -122,27 +118,8 @@ const TidbitsPage = () =>
         />
 
         <StuffList
-          title={ 'Udemy Courses' }
-          synopsis={ "Some courses I've already had the liberty of doing and would love to pass onto anyone who's looking for good material to learn for." }
-          list={
-            [
-              {
-                link: 'https://www.udemy.com/course/react-redux/learn/lecture/5691826#overview',
-                title: 'Modern React w. Redux',
-                snippet: 'React + Redux course by Stephan Grider. Absolutely the best instructor I can possibly imagine. The course is throughly maintained and updated'
-              },
-              {
-                link: 'https://www.udemy.com/course/nodejs-master-class/learn/lecture/9993132#overview',
-                title: 'Node',
-                snippet: 'NodeJs course by Mosh Hamedani. Straight forward and to the point'
-              },
-            ]
-          }
-        />
-
-        <StuffList
           title={ 'Other Bits' }
-          synopsis={ 'These sites are pretty category-less. But definitely useful.' }
+          synopsis={ '' }
           list={
             [
               {
@@ -183,3 +160,24 @@ const TidbitsPage = () =>
   </Layout>
 
 export default TidbitsPage
+
+/*
+        <StuffList
+          title={ 'Udemy Courses' }
+          synopsis={ "" }
+          list={
+            [
+              {
+                link: 'https://www.udemy.com/course/react-redux/learn/lecture/5691826#overview',
+                title: 'Modern React w. Redux',
+                snippet: 'React + Redux course by Stephan Grider. Absolutely the best instructor I can possibly imagine. The course is throughly maintained and updated'
+              },
+              {
+                link: 'https://www.udemy.com/course/nodejs-master-class/learn/lecture/9993132#overview',
+                title: 'Node',
+                snippet: 'NodeJs course by Mosh Hamedani. Straight forward and to the point'
+              },
+            ]
+          }
+        />
+*/
