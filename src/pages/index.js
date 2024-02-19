@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <div className="excerpt" style={{ backgroundColor: `` }}>
       <div className="animated fadeIn delay-1s" style={{ paddingRight: `3%`, margin: `auto 0` }}>
-        <h1>Hello, it's nice to meet you.</h1>
+        <h1>Hey, it's nice to meet you.</h1>
         <p>
           I'm Mohammed Chisti, a fullstack developer based in my hometown, New York City.
         </p>
