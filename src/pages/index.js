@@ -18,7 +18,7 @@ const IndexPage = () => (
           I'm Mohammed Chisti, a fullstack developer based in my hometown, New York City.
         </p>
         <p>
-          Take a look around, it's a place I keep things that I'm interested in. 
+          Feel free to look around. 
         </p>
 
         <div className='social-icons'>
