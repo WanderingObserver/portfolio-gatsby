@@ -204,6 +204,19 @@ li > a:hover {
   justify-content: center;
 }
 
+.social-icons {
+  padding-top: 2em;
+}
+
+.social-icons i {
+  color: #050d18;
+  padding: 0 1em;
+}
+
+.social-icons i:first-child {
+  padding-left: 0;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 700px) {
   body {
@@ -214,11 +227,11 @@ li > a:hover {
   }
 
   footer {
-    padding: 5% 6%;
+    padding: 5% 1em;
   }
 
   main {
-    margin: 0 6%;
+    margin: 0 3%;
   }
 
   .excerpt {
@@ -237,11 +250,10 @@ li > a:hover {
 
 /* Tablet Styles */
 @media only screen and (min-width: 700px) and (max-width: 1250px) {
-  body {
-  }
+  body {}
 
   main {
-    margin: 0 8%;
+    margin: -1% 8%;
   }
 
   .card-grid > * {
@@ -252,6 +264,5 @@ li > a:hover {
 
 /* Desktop Styles */
 @media only screen and (min-width: 1250px) {
-  body {
-  }
+  body {}
 }

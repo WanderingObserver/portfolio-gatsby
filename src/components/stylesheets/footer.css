@@ -11,10 +11,6 @@ footer .subscribe {
   flex-grow: 1;
 }
 
-footer .social-icons {
-  padding: 1.2em 0;
-}
-
 footer h5 {
   color: #959Da8;
 }
@@ -23,8 +19,9 @@ footer a {
   color: #eee;
 }
 
-footer i {
-  padding: 0 .75em .50em .75em;
+footer .social-icons i {
+  color: #656d78;
+  padding: 0 .75em 1em;
 }
 
 footer i:first-child {

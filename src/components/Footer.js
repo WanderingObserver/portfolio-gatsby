@@ -15,9 +15,6 @@ const Footer = () =>
         <a target='_blank' href="https://github.com/seeyouspacecowboy"><i title="Github" className="fab fa-github fa-2x"></i></a>
         <a target='_blank' href="https://medium.com/@mchisti"><i title="Medium" className="fab fa-medium fa-2x"></i></a>
         <a target='_blank' href="https://codepen.io/mohammedchisti"><i title="Code Pen" className="fab fa-codepen fa-2x"></i></a>
-        <a target='_blank' href="https://www.linkedin.com/in/mohammedchisti/"><i title="LinkedIn" className="fab fa-linkedin fa-2x"></i></a>
-        <a target='_blank' href="https://angel.co/mohammed-chisti"><i title="Angelist" className="fab fa-angellist fa-2x"></i></a>
-        
       </div>
 
       <div>

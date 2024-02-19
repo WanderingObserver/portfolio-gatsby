@@ -20,6 +20,12 @@ const IndexPage = () => (
         <p>
           Take a look around, it's a place I keep things that I'm interested in. 
         </p>
+
+        <div className='social-icons'>
+          <a target='_blank' href="https://github.com/seeyouspacecowboy"><i title="Github" className="fab fa-github fa-2x"></i></a>
+          <a target='_blank' href="https://medium.com/@mchisti"><i title="Medium" className="fab fa-medium fa-2x"></i></a>
+          <a target='_blank' href="https://codepen.io/mohammedchisti"><i title="Code Pen" className="fab fa-codepen fa-2x"></i></a>
+        </div>
       </div>
 
       <div className='animated fadeInLeft center' id='hero-img'>
