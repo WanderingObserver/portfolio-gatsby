@@ -17,7 +17,7 @@ const IndexPage = () => (
         <p>
           I'm Mohammed Chisti, a fullstack developer that 
           utilizes <a href="https://react.dev/" target="_blank">React</a> and <a href="https://reactnative.dev/" target="_blank">React Native</a>
-          . Based in my hometown, New York City.
+          . Based in my hometown, <a href="https://www.nytimes.com/interactive/2023/upshot/extremely-detailed-nyc-neighborhood-map.html" target="_blank">New York City</a>.
         </p>
         <p>
           Feel free to look around. 
