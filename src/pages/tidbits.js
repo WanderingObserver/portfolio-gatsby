@@ -17,6 +17,20 @@ const TidbitsPage = () =>
 
       <div className="card-grid">
         <StuffList
+          title={ 'Books' }
+          synopsis={ '' }
+          list={
+            [
+              {
+                link: 'https://eloquentjavascript.net/',
+                title: 'Eloquent JavaScript',
+                snippet: '3rd edition (2018)'
+              },
+            ]
+          }
+        />
+
+        <StuffList
           title={ 'Developer Blogs' }
           synopsis={ '' }
           list={

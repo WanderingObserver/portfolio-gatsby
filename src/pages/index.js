@@ -26,6 +26,13 @@ const IndexPage = () => (
           <a target='_blank' href="https://medium.com/@mchisti"><i title="Medium" className="fab fa-medium fa-2x"></i></a>
           <a target='_blank' href="https://codepen.io/mohammedchisti"><i title="Code Pen" className="fab fa-codepen fa-2x"></i></a>
         </div>
+
+        <i>
+          "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies."
+        </i>
+        <p>
+          - C.A.R. Hoare, 1980 ACM Turing Award Lecture
+        </p>
       </div>
 
       <div className='animated fadeInLeft center' id='hero-img'>
