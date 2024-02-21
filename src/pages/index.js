@@ -15,7 +15,9 @@ const IndexPage = () => (
       <div className="animated fadeIn delay-1s" style={{ paddingRight: `3%`, margin: `auto 0` }}>
         <h1>Hey, it's nice to meet you.</h1>
         <p>
-          I'm Mohammed Chisti, a fullstack developer based in my hometown, New York City.
+          I'm Mohammed Chisti, a fullstack developer that 
+          utilizes <a href="https://react.dev/" target="_blank">React</a> and <a href="https://reactnative.dev/" target="_blank">React Native</a>
+          . Based in my hometown, New York City.
         </p>
         <p>
           Feel free to look around. 
