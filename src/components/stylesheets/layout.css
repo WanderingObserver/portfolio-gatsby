@@ -210,7 +210,7 @@ li > a:hover {
 
 .social-icons i {
   color: #050d18;
-  padding: 0 1em .75em;
+  padding: 0 1em 1em;
 }
 
 .social-icons i:first-child {
